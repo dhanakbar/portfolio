@@ -105,6 +105,21 @@ body {
   font-size: 14px;
 }
 /* End Portfolios */
+/* Contact */
+.contact-items {
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+}
+.contact-item {
+  padding-bottom: 80px;
+  padding-top: 50px;
+  margin: auto;
+}
+.contact-text {
+  font-size: 18px;
+}
+/* End Contact */
 /* PHONE */
 @media only screen and (max-width: 870px) {
   .navbar-nav {
