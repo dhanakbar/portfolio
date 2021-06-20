@@ -5,8 +5,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-}
 /* Navigasi */
 .navbar {
   background-color: #142344;
@@ -81,7 +79,7 @@ body {
     margin-bottom: 0;
   }
   #hero {
-    height: 60 vh;
+    height: 60vh;
   }
   .about-me-text {
     text-align: center;
