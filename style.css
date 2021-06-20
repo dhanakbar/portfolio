@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,700&family=Roboto:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow: hidden;
+}
+/* Navigasi */
+.navbar {
+  background-color: #142344;
+  color: #fcfcfc;
+  font-size: 14px;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 16px;
+}
+/* End Navigasi */
+/* Hero */
+#hero {
+  background-color: #1d2d50;
+  height: 100vh;
+}
+.jumbotron {
+  padding-top: 18%;
+  color: #fcfcfc;
+}
+.jumbotron h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.circle-atribute {
+  z-index: 1;
+  position: absolute;
+  top: 450px;
+  left: 60px;
+  height: 70px;
+  width: 70px;
+  border: 2px solid #ff7f0a;
+}
+.circle-atribute::after {
+  content: "";
+  position: absolute;
+  top: -350px;
+  left: 1180px;
+  height: 95px;
+  width: 95px;
+  border: 2px solid #b806d4;
+}
+.ractangle-atribute {
+  z-index: 1;
+  position: absolute;
+  top: 550px;
+  left: -20px;
+  height: 100px;
+  width: 100px;
+  border: 2px solid #f4dc00;
+}
+.ractangle-atribute::after {
+  content: "";
+  position: absolute;
+  top: -350px;
+  left: 1180px;
+  height: 45px;
+  width: 45px;
+  border: 2px solid #d0075b;
+  transform: rotate(35deg);
+}
+/* End Hero */
+/* PHONE */
+@media only screen and (max-width: 870px) {
+  body {
+    overflow: hidden;
+  }
+  #hero {
+    height: 70vh;
+  }
+  .circle-atribute {
+    top: 350px;
+    left: 60px;
+    height: 40px;
+    width: 40px;
+  }
+  .circle-atribute::after {
+    content: "";
+    top: -330px;
+    left: 380px;
+  }
+  .ractangle-atribute {
+    top: 380px;
+    left: -20px;
+    height: 70px;
+    width: 70px;
+  }
+  .ractangle-atribute::after {
+    content: "";
+    top: -400%;
+    left: 600%;
+  }
+}
