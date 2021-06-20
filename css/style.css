@@ -36,10 +36,10 @@ body {
 #about-me {
 }
 .about-me-content {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  align-items: center;
 }
 .about-me-text {
+  padding: 50px 200px;
   line-height: 2em;
 }
 /* End About */
