@@ -22,7 +22,7 @@ body {
 /* Hero */
 #hero {
   background-color: #1d2d50;
-  height: 50vh;
+  height: 100vh;
 }
 .jumbotron {
   padding-top: 18%;
@@ -31,49 +31,11 @@ body {
 .jumbotron h3 {
   font-size: 24px;
   font-weight: 700;
-/* }
-.circle-atribute {
-  z-index: 1;
-  position: absolute;
-  top: 450px;
-  left: 60px;
-  height: 70px;
-  width: 70px;
-  border: 2px solid #ff7f0a;
 }
-.circle-atribute::after {
-  content: "";
-  position: absolute;
-  top: -350px;
-  left: 1180px;
-  height: 95px;
-  width: 95px;
-  border: 2px solid #b806d4;
-}
-.ractangle-atribute {
-  z-index: 1;
-  position: absolute;
-  top: 550px;
-  left: -20px;
-  height: 100px;
-  width: 100px;
-  border: 2px solid #f4dc00;
-}
-.ractangle-atribute::after {
-  content: "";
-  position: absolute;
-  top: -350px;
-  left: 1180px;
-  height: 45px;
-  width: 45px;
-  border: 2px solid #d0075b;
-  transform: rotate(35deg);
-} */
 /* End Hero */
 /* PHONE */
 @media only screen and (max-width: 870px) {
   #hero {
     height: 70vh;
-    overflow: hidden;
   }
 }
