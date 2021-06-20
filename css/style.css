@@ -115,9 +115,17 @@ body {
   padding-bottom: 80px;
   padding-top: 50px;
   margin: auto;
+  white-space: nowrap;
+}
+.con-item {
+  align-items: center;
+}
+.con-item img {
+  padding-right: 50px;
 }
 .contact-text {
   font-size: 18px;
+  margin-top: 10px;
 }
 /* End Contact */
 /* PHONE */
