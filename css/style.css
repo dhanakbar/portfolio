@@ -44,6 +44,10 @@ body {
 /* End About */
 /* PHONE */
 @media only screen and (max-width: 870px) {
+  .navbar-nav {
+    padding-left: 15px;
+    margin-bottom: 0;
+  }
   #hero {
     height: 65vh;
   }
