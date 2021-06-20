@@ -115,12 +115,14 @@ body {
   align-items: center;
   padding-top: 50px;
 }
-.contact-img,
-.contact-text {
-  padding: 10px;
+.contact-img {
+  padding-top: 10px;
+}
+.contact-text-item {
+  margin-top: -25px;
 }
 .contact-text {
-  margin-top: 20px;
+  margin-top: 50px;
   font-size: 16px;
 }
 /* End Contact */
