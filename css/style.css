@@ -77,12 +77,14 @@ body {
     overflow: hidden;
   }
   .circle-atribute {
+    display: none;
     top: 350px;
     left: 60px;
     height: 40px;
     width: 40px;
   }
   .ractangle-atribute {
+    display: none;
     top: 380px;
     left: -20px;
     height: 70px;
