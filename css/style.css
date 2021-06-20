@@ -45,7 +45,7 @@ body {
 /* PHONE */
 @media only screen and (max-width: 870px) {
   #hero {
-    height: 90%;
+    height: 80vh;
   }
   .about-me-text {
     text-align: center;
