@@ -33,7 +33,19 @@ body {
 }
 /* End Hero */
 /* About */
+.about-me-content {
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 .about-me-text {
+  margin-left: 150px;
 }
 /* End About */
 /* PHONE */
@@ -47,7 +59,11 @@ body {
   .navbar-nav {
     text-align: center;
   }
-  .profile {
-    display: none;
+  .about-me-content {
+    flex-direction: column;
+  }
+  .about-me-text {
+    margin-top: 20px;
+    margin-left: 0px;
   }
 }
