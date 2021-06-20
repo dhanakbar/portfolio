@@ -95,10 +95,11 @@
   height: 14rem;
   transition: 0.5s ease-in-out;
   overflow: hidden;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.2) !important;
 }
 .card:hover {
   width: 15rem;
-  height: 22rem;
+  height: 24rem;
   font-size: 14px;
 }
 /* End Portfolios */
