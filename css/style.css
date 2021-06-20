@@ -79,7 +79,7 @@
     margin-bottom: 0;
   }
   #hero {
-    height: 60vh;
+    max-height: 60vh;
   }
   .about-me-text {
     text-align: center;
