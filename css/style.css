@@ -35,10 +35,6 @@ body {
 /* About */
 #about-me {
 }
-.about-content {
-  display: flex;
-  justify-content: space-between;
-}
 .about-me-content {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -52,8 +48,8 @@ body {
   #hero {
     height: 70vh;
   }
-  .about-me-content {
-    flex-direction: column-reverse;
+  .profile {
+    display: none;
   }
   .about-me-text {
     text-align: center;
