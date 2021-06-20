@@ -82,20 +82,10 @@ body {
     height: 40px;
     width: 40px;
   }
-  .circle-atribute::after {
-    content: "";
-    top: -330px;
-    left: 380px;
-  }
   .ractangle-atribute {
     top: 380px;
     left: -20px;
     height: 70px;
     width: 70px;
-  }
-  .ractangle-atribute::after {
-    content: "";
-    top: -400%;
-    left: 600%;
   }
 }
