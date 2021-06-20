@@ -106,26 +106,21 @@ body {
 }
 /* End Portfolios */
 /* Contact */
+#contact {
+  height: 100vh;
+}
 .contact-items {
-  align-items: center;
+  display: flex;
   justify-content: center;
-  margin-right: auto;
-}
-.contact-item {
-  padding-bottom: 80px;
-  padding-top: 50px;
-  margin: auto;
-  white-space: nowrap;
-}
-.con-item {
   align-items: center;
+  padding-top: 50px;
 }
-.con-item img {
-  padding-right: 50px;
+.contact-img,
+.contact-text {
+  padding: 10px;
 }
 .contact-text {
-  font-size: 18px;
-  margin-top: 10px;
+  font-size: 16px;
 }
 /* End Contact */
 /* PHONE */
