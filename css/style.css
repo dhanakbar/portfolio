@@ -72,11 +72,9 @@ body {
 /* End Hero */
 /* PHONE */
 @media only screen and (max-width: 870px) {
-  body {
-    overflow: hidden;
-  }
   #hero {
     height: 70vh;
+    overflow: hidden;
   }
   .circle-atribute {
     top: 350px;
