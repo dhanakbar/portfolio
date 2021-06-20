@@ -34,7 +34,6 @@ body {
 /* End Hero */
 /* About */
 .about-me-text {
-  padding: 50px 200px;
 }
 /* End About */
 /* PHONE */
@@ -44,9 +43,11 @@ body {
   }
   .about-me-text {
     text-align: center;
-    padding: 30px 30px;
   }
   .navbar-nav {
     text-align: center;
+  }
+  .profile {
+    display: none;
   }
 }
