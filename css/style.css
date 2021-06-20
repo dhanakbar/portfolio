@@ -42,16 +42,11 @@ body {
   #hero {
     height: 70vh;
   }
-  .profile {
-    display: none;
-  }
   .about-me-text {
     text-align: center;
+    padding: 30px 30px;
   }
   .navbar-nav {
     text-align: center;
-  }
-  .about-me-text {
-    padding: 30px 30px;
   }
 }
