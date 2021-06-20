@@ -31,7 +31,7 @@ body {
 .jumbotron h3 {
   font-size: 24px;
   font-weight: 700;
-}
+/* }
 .circle-atribute {
   z-index: 1;
   position: absolute;
@@ -68,26 +68,12 @@ body {
   width: 45px;
   border: 2px solid #d0075b;
   transform: rotate(35deg);
-}
+} */
 /* End Hero */
 /* PHONE */
 @media only screen and (max-width: 870px) {
   #hero {
     height: 70vh;
     overflow: hidden;
-  }
-  .circle-atribute {
-    display: none;
-    top: 350px;
-    left: 60px;
-    height: 40px;
-    width: 40px;
-  }
-  .ractangle-atribute {
-    display: none;
-    top: 380px;
-    left: -20px;
-    height: 70px;
-    width: 70px;
   }
 }
