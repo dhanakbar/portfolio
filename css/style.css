@@ -36,16 +36,9 @@ body {
 .about-me-content {
   justify-content: center;
   align-items: center;
-  padding: 50px 50px;
-}
-.profile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 .about-me-text {
-  margin-left: 150px;
+  padding: 50px 200px;
 }
 /* End About */
 /* PHONE */
@@ -59,11 +52,10 @@ body {
   .navbar-nav {
     text-align: center;
   }
-  .about-me-content {
-    flex-direction: column;
+  .profile {
+    display: none;
   }
   .about-me-text {
-    margin-top: 20px;
-    margin-left: 0px;
+    padding: 50px 50px;
   }
 }
