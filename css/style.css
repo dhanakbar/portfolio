@@ -66,12 +66,25 @@
 .content-items h4 {
   margin-top: 10px;
 }
-
+#services-mobile {
+  display: none;
+}
 /* End Service */
+/* Portfolios */
 #portfolio {
   background-color: #1d2d50;
-  height: 100vh;
 }
+#portfolio h4 {
+  padding-top: 150px;
+  color: #fcfcfc;
+}
+.portfolios-content {
+  padding-bottom: 100px;
+}
+.col {
+  margin-top: 20px;
+}
+/* End Portfolios */
 /* PHONE */
 @media only screen and (max-width: 870px) {
   .navbar-nav {
@@ -92,5 +105,14 @@
   }
   .services {
     display: none;
+  }
+  #services-mobile {
+    display: block;
+  }
+  .col {
+    margin-top: 20px;
+  }
+  #portfolio h4 {
+    padding-top: 50px;
   }
 }
