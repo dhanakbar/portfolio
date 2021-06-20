@@ -58,4 +58,7 @@ body {
   .about-me-text {
     text-align: center;
   }
+  .navbar-nav {
+    text-align: center;
+  }
 }
