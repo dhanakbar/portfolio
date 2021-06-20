@@ -33,14 +33,8 @@ body {
 }
 /* End Hero */
 /* About */
-#about-me {
-}
-.about-me-content {
-  align-items: center;
-}
 .about-me-text {
   padding: 50px 200px;
-  line-height: 2em;
 }
 /* End About */
 /* PHONE */
