@@ -6,7 +6,6 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  overflow: hidden;
 }
 /* Navigasi */
 .navbar {
@@ -33,9 +32,30 @@ body {
   font-weight: 700;
 }
 /* End Hero */
+/* About */
+#about-me {
+}
+.about-content {
+  display: flex;
+  justify-content: space-between;
+}
+.about-me-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.about-me-text {
+  line-height: 2em;
+}
+/* End About */
 /* PHONE */
 @media only screen and (max-width: 870px) {
   #hero {
     height: 70vh;
+  }
+  .profile {
+    display: none;
+  }
+  .about-me-text {
+    text-align: center;
   }
 }
