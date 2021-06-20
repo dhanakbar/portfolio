@@ -52,4 +52,10 @@ body {
   #hero {
     height: 70vh;
   }
+  .profile {
+    display: none;
+  }
+  .about-me-text {
+    text-align: center;
+  }
 }
