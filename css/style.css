@@ -5,8 +5,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-}
 /* Navigasi */
 .navbar {
   background-color: #142344;
@@ -38,10 +36,14 @@ body {
   align-items: center;
 }
 .about-me-text {
+  color: #1d2d50;
   padding-top: 50px;
   padding-bottom: 150px;
   padding-left: 200px;
   padding-right: 200px;
+}
+#about {
+  color: #1d2d50;
 }
 /* End About */
 /* Service */
@@ -57,6 +59,7 @@ body {
   transform: translate(-50%, -50%);
   width: 70%;
   border-radius: 10px;
+  color: #1d2d50;
 }
 .content-items {
   padding: 10px;
@@ -70,6 +73,7 @@ body {
 }
 #services-mobile {
   display: none;
+  color: #1d2d50;
 }
 /* End Service */
 /* Portfolios */
@@ -82,6 +86,9 @@ body {
 }
 .portfolios-content {
   padding-bottom: 100px;
+}
+.link-card {
+  text-decoration: none;
 }
 .col {
   margin-top: 20px;
@@ -106,14 +113,15 @@ body {
 }
 /* End Portfolios */
 /* Contact */
-#contact {
-  height: 100vh;
+.contact-me {
+  color: #1d2d50;
 }
 .contact-items {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 30px;
+  padding-bottom: 100px;
 }
 .contact-img {
   padding-top: 10px;
@@ -124,8 +132,20 @@ body {
 .contact-text {
   margin-top: 50px;
   font-size: 16px;
+  color: #1d2d50;
+}
+.card-body {
+  color: #142344;
 }
 /* End Contact */
+/* Footer */
+#footer {
+  background-color: #1d2d50;
+}
+.footers {
+  color: #fcfcfc;
+}
+/* End Footer */
 /* PHONE */
 @media only screen and (max-width: 870px) {
   .navbar-nav {
